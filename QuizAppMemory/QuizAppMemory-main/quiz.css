@@ -1,0 +1,33 @@
+body {
+  background: url('ai-generated-8750163_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  
+  margin: 0;
+}
+.card{
+  background-color: rgba(232, 217, 188, 0.786);
+}
+#options{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.opt{
+  width: 90%;
+  
+}
+.opt:hover {
+  background-color: #4CAF50; 
+  color: white; 
+  border-color: #4CAF50; 
+  transform: scale(1.05); 
+}
+.btn{
+  width: 90%;
+  
+}
+.btn:hover{
+  transform: scale(1.05);
+}
+
